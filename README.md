@@ -1,8 +1,8 @@
-# Portfolio V3 With PWA Support
+# ardacebi.com Source Code
 
-My Portfolio Version 3 Made With Material Design and PWA Support.
+The source code of my personal website.
 
-* Build With Material Design
+* Built with Material Design
 * Responsive
 * Oflline Loading - PWA Support
 * Lazy Load Images for Improving Page Load Speed.
