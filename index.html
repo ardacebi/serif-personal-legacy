@@ -47,14 +47,19 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <script>
-        var host = "www.ardacebi.com"
-        if (window.location.host == host && window.location.protocol != "https:") {
-        window.location.protocol = "https:"
-    </script>
+var host = "www.ardacebi.com";
+if ((host == window.location.host) && (window.location.protocol != "https:"))
+    window.location.protocol = "https";
+</script>
 }
 </head>
 
 <body>
+    <script>
+var host = "www.ardacebi.com";
+if ((host == window.location.host) && (window.location.protocol != "https:"))
+    window.location.protocol = "https";
+</script>
     <!-- Navigation Menu-->
     <nav ng-class="hide-on-small-only">
         <ul class="side-nav fixed section table-of-contents">
