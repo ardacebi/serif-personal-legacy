@@ -1,12 +1,12 @@
 {
- "name": "Sharad Shinde - Full Stack Developer",
- "short_name": "Portfolio",
+ "name": "Arda Çebi - Developer & Designer",
+ "short_name": "Arda Çebi",
  "start_url": "../../../index.html",
  "scope": ".",
  "display": "standalone",
  "background_color": "#fff",
  "theme_color": "#fff",
- "description": "Portfolio of Sharad Shinde - Full Stack Developer",
+ "description": "Portfolio of Arda Çebi - Developer & Designer",
  "lang": "en-US",
  "orientation": "portrait-primary",
  "icons": [
