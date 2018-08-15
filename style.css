@@ -230,6 +230,23 @@ h3 {
   border-radius : 16px;
 }
 
+@media
+  screen
+  and (max-width : 600px) {
+  .scroll-btn {
+    z-index       : 10;
+    display       : block;
+    visibility    : hidden;
+    position      : absolute;
+    bottom        : 40px;
+    left          : 50%;
+    width         : 24px;
+    height        : 40px;
+    margin-left   : -15px;
+    border-radius : 16px;
+  }
+}
+
 .scroll-btn > * {
   display        : inline-block;
   color          : #7f8c8d;
