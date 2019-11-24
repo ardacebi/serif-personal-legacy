@@ -1,7 +1,10 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #000
+  background-color: #000;
+  overflow-x: hidden;
 }
+
+
 
 /* Style the header with a grey background and some padding */
 .header {
@@ -55,6 +58,84 @@ body {
   float:center;
   width:100%;
   margin-top:10px;
+}
+
+.singlelink {
+  color:white;
+  font-size:70px;
+  text-align: center;
+  float:center;
+  width:100%;
+  font-weight:500;
+
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #2c3e50;
+
+  transition: font-weight .4s ease-in-out;
+
+}
+
+.singlelink:hover, .singlelink.be-bold {
+  font-weight: 900;
+  cursor: pointer;
+}
+
+
+
+.photographylink {
+  color:white;
+  font-size:70px;
+  text-align: center;
+  float:center;
+  width:100%;
+
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #2c3e50;
+
+  transition: font-weight .4s ease-in-out;
+
+}
+
+.photographylink:hover, .photographylink.be-bold {
+  font-weight: 900;
+  cursor: pointer;
+}
+
+
+.linkdiv {
+
+}
+
+@media screen and (max-width: 700px) {
+.singlelink {
+  font-size:60px;
+  }
+
+  .photographylink {
+font-size:60px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .photographylink {
+font-size:45px;
+  }
+}
+
+@media screen and (max-width:379px) {
+  .singlelink {
+    font-size:50px;
+    }
+
+    .photographylink {
+  font-size:40px;
+    }
+}
+
+a {
+
 }
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */

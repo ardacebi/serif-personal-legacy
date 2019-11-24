@@ -31,59 +31,33 @@
 
   </div>
 
-<div>
-  <div class="row" style="margin-bottom:25px;">
-    <div class="column">
-      <a href="coding.html">
-      <div class="card">
-        <img src="assets/code.png" style="width:65%; display:block; margin-left: auto; margin-right: auto;"></img>
-        <h1>Coding</h1>
-      </div>
-    </a>
-    </div>
-    <div class="column">
-      <a href="design.html">
-      <div class="card">
-        <img src="assets/design.png" style="width:55%; display:block; margin-left: auto; margin-right: auto;"></img>
-        <h1>Design</h1>
-      </div>
-      </a>
-    </div>
-
-
-  </div>
-
-  <div class="row">
-    <div class="column">
-      <a href="photography.html">
-      <div class="card">
-        <img src="assets/photography.png" style="width:45%; display:block; margin-left: auto; margin-right: auto;"></img>
-        <h1>Photography</h1>
-      </div>
-      </a>
-    </div>
-    <div class="column">
-      <a href="space.html">
-      <div class="card">
-        <img src="assets/space.png" style="width:45%; display:block; margin-left: auto; margin-right: auto;"></img>
-        <h1>Space</h1>
-      </div>
-  </a>
-    </div>
-
-
-  </div>
-<div class="row">
-  <div class="column" style="margin-top:25px; margin-bottom:15px;">
-    <a href="blog.html">
-    <div class="card">
-      <img src="assets/blog.png" style="width:45%; display:block; margin-left: auto; margin-right: auto;"></img>
-      <h1>Blog</h1>
-    </div>
-</a>
-  </div>
+<div class="linkdiv" style="width:100%; float:center; text-align:center;  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);">
+  <a class="singlelink" href="coding.html">// CODING</a><br>
+  <a class="singlelink" href="design.html">// DESIGN</a><br>
+  <a class="photographylink" href="photography.html">// PHOTOGRAPHY</a><br>
+  <a class="singlelink" href="space.html">// SPACE</a><br>
+  <a class="singlelink" href="blog.html">// BLOG</a><br>
 </div>
-</div>
+
+<script>
+$(function () {
+    $("singlelink").on('click', function () {
+        $(this).toggleClass('be-bold');
+    });
+});
+</script>
+
+<script>
+$(function () {
+    $("photographylink").on('click', function () {
+        $(this).toggleClass('be-bold');
+    });
+});
+</script>
 
 </body>
 
