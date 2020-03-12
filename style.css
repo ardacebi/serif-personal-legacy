@@ -1,3 +1,8 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #000;
@@ -6,439 +11,192 @@ body {
 
 h1 {
   color:white;
+  font-family: "Vidaloka";
+}
+
+h2 {
+  font-family: "Vidaloka";
+  color:white;
+}
+
+
+h3 {
+  font-family: "Montserrat";
+  color:white;
+}
+
+
+h4 {
+  font-family: "Montserrat";
+  color:white;
 }
 
 p {
   color:white;
+  font-family:"Montserrat";
 }
 
-.blogcontent {
-
-  text-align:left;
-  width:100%;
+.landingname {
+  margin-left:100px;
+  margin-top:100px;
+  font-size: 100px;
 }
 
-.blogdiv {
-  margin-left:200px;
-  margin-right:200px;
-}
-
-@media screen and (max-width:1100px) {
-  .blogdiv {
-    margin-left:100px;
-    margin-right:100px;
-  }
-}
-
-@media screen and (max-width:1000px) {
-  .blogdiv {
-    margin-left:70px;
-    margin-right:70px;
-  }
-}
-
-
-
-/* Style the header with a grey background and some padding */
-.header {
-  overflow: hidden;
-  background-color: #000;
-  padding: 20px 25px 20px 20px;
-  margin: -10px -8px -5px -10px;
-}
-
-/* Style the header links */
-.header a {
-  float: left;
-  color: white;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
-  float: none;
-  text-align: center;
-}
-
-/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
-.header a.logo {
-  font-size: 35px;
-  font-weight: 700;
-  padding-top: 23px;
-  width:100%;
-  text-align:center;
-    display: block;
-}
-
-.header-right {
-  font-weight: 600;
-}
-
-/* Change the background color on mouse-over */
-.header a:hover {
-
-}
-
-/* Style the active/current link*/
-.header a.active {
-  color: white;
-}
-
-/* Float the link section to the right */
-.header-right {
-  text-align:center;
-  float:center;
-  width:100%;
-  margin-top:10px;
-}
-
-.singlelink {
-  color:white;
-  font-size:90px;
-  text-align: center;
-  float:center;
-  width:100%;
-  font-weight:500;
-  font-weight: 100;
-  text-transform: uppercase;
-  color: #2c3e50;
-
-  transition: font-weight .4s ease-in-out;
-
-}
-
-.singlelink:hover, .singlelink.be-bold {
-  font-weight: 900;
-  cursor: pointer;
-}
-
-
-
-.photographylink {
-  color:white;
-  font-size:80px;
-  text-align: center;
-  float:center;
-  width:100%;
-
-  font-weight: 100;
-  text-transform: uppercase;
-  color: #2c3e50;
-
-  transition: font-weight .4s ease-in-out;
-
-}
-
-.photographylink:hover, .photographylink.be-bold {
-  font-weight: 900;
-  cursor: pointer;
-}
-
-
-.linkdiv {
-
-}
-
-@media screen and (max-width: 700px) {
-.singlelink {
+.landingdescription {
+  margin-left:100px;
+  margin-top:-40px;
   font-size:60px;
-  }
-
-  .photographylink {
-font-size:60px;
-  }
 }
 
-@media screen and (max-width:500px) {
-  .photographylink {
-font-size:45px;
-  }
-
-  .blogdiv {
-    margin-left:50px;
-    margin-right:50px;
-  }
+.secondary {
+  margin-left:200px;
+  margin-top:80px;
+  font-size: 60px;
 }
 
-@media screen and (max-width:379px) {
-  .singlelink {
-    font-size:50px;
-    }
-
-    .photographylink {
-  font-size:40px;
-    }
-
-
+.secondarysub {
+  font-size:45px;
+  margin-left:200px;
+  margin-top:60px;
+  margin-bottom:-30px;
 }
 
-a {
-
-}
-
-/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-@media screen and (max-width: 708px) {
-  .header a {
-    float: none;
-    text-align: center;
-  }
-
-  .header a.logo {
-    display: block;
-  }
-
-  .header-right {
-    text-align:center;
-    float:center;
-    width:100%;
-    margin-top:10px;
-  }
-
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
-
-i.fa {
-  display: inline-block;
-  border-radius: 60px;
-  box-shadow: 0px 0px 2px #888;
-  padding: 0.5em 0.6em;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-/* Float four columns side by side */
-.column {
-  float: left;
-  width: 50%;
-  padding: 0 10px;
-}
-
-/* Remove extra left and right margins, due to padding in columns */
-.row {
-margin-left:100px;
-margin-right:100px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the counter cards */
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 16px;
-  text-align: center;
-  background-color: #202020;
-  color:white;
-  font-weight:800;
-  border-radius:20px;
-  height:380px;
-
+  border:1px white solid;
+  width:100%;
+  margin-left:55px;
+  margin-top:50px;
 }
 
-a:hover, a:visited, a:link, a:active
-{
-    text-decoration: none;
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.column {
-  float: left;
-  width: 50%;
+.card-container li{
+  list-style-type:none;
+  padding:.5em .5em .5em .5em;
+  display:inline-block;
+  text-align:left;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
+.firstcard {
+  margin-left:100px;
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+section {
+  width: 100%;
+  padding: 0;
   display: table;
-  clear: both;
+  margin: 0;
+  max-width: none;
+  background-color: #000;
+  height: 100vh;
 }
 
-
-b {
-  position: relative;
-  display: block;
-  font-family: helvetica neue, helvetica, sans-serif;
-  line-height: 1.15em;
-  margin-top: -1.15em;
-  top: 2.3em;
-  font-size: 0.67em;
-  font-weight: 400;
-  letter-spacing: 0.025em;
-  opacity: 0.75;
-  text-align: center;
+.intro {
+  height: 90vh;
 }
 
-b span {
-  font-size: 0.785em;
-  font-weight: 400;
-  opacity: 0.4;
+.content {
+  display: table-cell;
+  vertical-align: middle;
 }
 
-#intro {
-  width: 200px;
-  margin: 100px auto 0;
-}
-
-.button {
-    display: inline-block;
-    text-decoration: none;
-    position: relative;
-    margin-top: 40px;
-}
-
-.button .bottom {
-    position: absolute;
-    left: 7px;
-    top: 7px;
-    width: 100%;
-    height: 100%;
-    background-color: #6C63FF;
-    display: block;
-    -webkit-transition: all .15s ease-out;
-    -moz-transition: all .15s ease-out;
-    -o-transition: all .15s ease-out;
-    transition: all .15s ease-out;
-}
-
-.button .top {
-    position: relative;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    padding: 24px 34px 22px 34px;
-    border: 2px solid #fff;
-}
-
-.button-dark .top {
-    border: 2px solid #fff;
-}
-
-.button .top .label {
-    font-family: sans-serif;
-    font-weight: 600;
-    color: #fff;
-    font-size: 12px;
-    line-height: 110%;
-    letter-spacing: 2px;
-    text-align: center;
-    text-transform: uppercase;
-    -webkit-transition: all .15s ease-out;
-    -moz-transition: all .15s ease-out;
-    -o-transition: all .15s ease-out;
-    transition: all .15s ease-out;
-}
-
-.button-dark .top .label {
-    color: #fff;
-}
-
-.button:hover .bottom {
-    left: 0;
-    top: 0;
-    background-color: #000;
-}
-
-.button:hover .top .label {
-    color: #6C63FF;
-}
-
-.button-border {
-    position: absolute;
-    background-color: #6C63FF;
-    -webkit-transition: all .25s ease-out;
-    -moz-transition: all .25s ease-out;
-    -o-transition: all .25s ease-out;
-    transition: all .25s ease-out;
-}
-
-.button:hover .top .button-border-left,.button:hover .top .button-border-right {
-    height: calc(100% + 2px);
-}
-
-.button:hover .top .button-border-top,.button:hover .top .button-border-bottom {
-    width: calc(100% + 2px);
-}
-
-.button-border-left {
-    left: -2px;
-    bottom: -2px;
-    width: 2px;
-    height: 0;
-}
-
-.button-border-top {
-    left: -2px;
-    top: -2px;
-    width: 0;
-    height: 2px;
-}
-
-.button-border-right {
-    right: -2px;
-    top: -2px;
-    width: 2px;
-    height: 0;
-}
-
-.button-border-bottom {
-    right: -2px;
-    bottom: -2px;
-    width: 0;
-    height: 2px;
-}
-
-.banner {
-  height:80px;
-  background-color:#211f4f;
-  margin-top:-15px;
-  margin-left:-8px;
-  margin-right:-8px;
+footer {
+  padding: 1% 5%;
   text-align:center;
-    line-height: 8px;
-    color:white;
-    padding-top:7px;
+  background-color: #373B44;
+  color: white;
 }
 
-.banner p {
-
+.sociallogo {
+  width:100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-hr {
-    display: block;
-    margin-before: 0.5em;
-    margin-after: 0.5em;
-    margin-start: auto;
-    margin-end: auto;
-    overflow: hidden;
-    border-style: inset;
-    border-width: 1px;
-    margin-right:700px;
-    margin-left:700px;
-    margin-top:50px;
-    margin-bottom:50px;
+.insta {
+ padding-bottom:19px;
+ padding-top:21px;
 }
 
-@media screen and (max-width: 900px) {
-  .row {
-    margin-left:60px;
-    margin-right:60px;
+.vsco {
+  padding-bottom:8.5px;
+  padding-top:8.5px;
+}
+
+.socialicondiv {
+  margin-left:200px;
+}
+
+.socialicon {
+  margin-right:15px;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
   }
 }
 
-@media screen and (max-width: 700px) {
-  .row {
-    margin-left:30px;
-    margin-right:30px;
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
   }
 }
+
+img {
+  filter: grayscale(100%);
+  transition:.4s;
+}
+
+img:hover {
+  filter: grayscale(0%);
+  transition:.4s;
+}
+
+.socialiconclass {
+  text-decoration:none;
+}
+
+.sidebar{
+  will-change: min-height;
+}
+
+.sidebar__inner{
+  transform: translate(0, 0); /* For browsers don't support translate3d. */
+  transform: translate3d(0, 0, 0);
+  will-change: position, transform;
+}
+
