@@ -12,11 +12,13 @@ body {
 h1 {
   color:white;
   font-family: "Vidaloka";
+  font-weight: normal;
 }
 
 h2 {
   font-family: "Vidaloka";
   color:white;
+  font-weight: normal;
 }
 
 
