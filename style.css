@@ -3,21 +3,6 @@ html, body {
   overflow-x: hidden;
 }
 
-@font-face {
-  font-family: "Display";
-  src: url("/fonts/Display/display.ttf") format("ttf");
-}
-
-@font-face {
-  font-family: "Vidaloka";
-  src: url("/fonts/Vidaloka/Vidaloka-Regular.ttf") format("ttf");
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("/fonts/Montserrat/Montserrat-Medium.ttf") format("ttf");
-}
-
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #000;
@@ -216,3 +201,4 @@ img:hover {
   transform: translate3d(0, 0, 0);
   will-change: position, transform;
 }
+
