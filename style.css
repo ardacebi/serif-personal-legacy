@@ -46,8 +46,8 @@ p {
 
 .landingdescription {
   margin-left:100px;
-  margin-top:-40px;
-  font-size:60px;
+  margin-top:30px;
+  font-size:130px;
 }
 
 .secondary {
@@ -160,6 +160,59 @@ footer {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+}
+
+.header {
+  margin-left:70px;
+  margin-right:70px;
+  margin-top:20px;
+  overflow: hidden;
+  padding: 20px 10px;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  font-family: "Vidaloka";
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 40px;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  color: grey;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  color: grey;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
