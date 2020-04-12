@@ -12,7 +12,8 @@
   },
   "homepage": "https://ardacebi.com",
   "scripts": {
-    "build": "webpack --config build/webpack.config.dev.js"
+    "start": "parcel -p 8080 index.html",
+    "test": "parcel index.html"
   },
   "dependencies": {
     "swup": "^2.0.9",
@@ -25,8 +26,7 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.1.2",
     "sass": "^1.26.3",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11"
+    "parcel-bundler": "^1.12.4"
   },
   "eslintConfig": {
     "root": true,
